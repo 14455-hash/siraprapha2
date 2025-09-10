@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ร้านขายอุปกรณ์วงโยทวาทิต</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e0e7ff 0%, #e6fbff 100%);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #4b3ca7;
+            color: #fff;
+            padding: 28px 0 18px 0;
+            text-align: center;
+            box-shadow: 0 2px 12px rgba(75,60,167,0.15);
+        }
+        header h1 {
+            font-size: 2.3em;
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        .container {
+            width: 92%;
+            max-width: 1100px;
+            margin: 36px auto 0 auto;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 28px;
+            justify-content: center;
+        }
+        .product {
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 4px 16px rgba(75,60,167,0.08);
+            width: 260px;
+            padding: 20px 18px 18px 18px;
+            text-align: center;
+            transition: transform 0.18s;
+        }
+        .product:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 8px 24px rgba(75,60,167,0.13);
+        }
+        .product img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(75,60,167,0.07);
+        }
+        .product h3 {
+            margin: 8px 0 5px 0;
+            font-size: 1.18em;
+            color: #4b3ca7;
+        }
+        .product p {
+            color: #444;
+            margin: 0 0 12px 0;
+            font-size: 0.98em;
+        }
+        .product .price {
+            color: #e67e22;
+            font-weight: bold;
+            font-size: 1.13em;
+        }
+        footer {
+            background: #2d2966;
+            color: #fff;
+            text-align: center;
+            padding: 14px 0;
+            margin-top: 48px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ร้านขายอุปกรณ์วงโยทวาทิต</h1>
+        <p>ครบทุกเครื่องดนตรีและอุปกรณ์สำหรับวงโยทวาทิต</p>
+    </header>
+    <div class="container">
+        <div class="products">
+            <div class="product">
+                <img src="https://lh5.googleusercontent.com/proxy/X1qm_sPrvlhK0iGx1wn5A2eWDKSKzX5We1qiWZy-rSqOXYJ-8-SYrPKnAmLpTBTzOjVm2yuDEqkW-h3TURjhu7nJDQ" alt="ทรัมเป็ต">
+                <h3>ทรัมเป็ต (Trumpet)</h3>
+                <p>ทรัมเป็ตทองเหลืองเสียงใส เหมาะสำหรับวงโยทวาทิตทุกระดับ</p>
+                <div class="price">฿28,000</div>
+            </div>
+            <div class="product">
+                <img src="https://lh3.googleusercontent.com/proxy/aaZTJ_QXYrrx2jMRcCjeW1SUSbfHoc9q3dcu60yuuKmaUt9mm4qWxQM1rU-tnXY5lQ5PgWcdTU4JpPIb39n8e1V3GW5l1MnNyasj22yZKkihOWiM44820_hENuCS6frPDVUvVC6MzkBxngZGmXbEu4SQe33fNNwkueCZjGUYryWrKrBasdOwHxywW1O84-ACkO4Zb_I4oJS6P8AM6qZ9OXFtiwOmmNsw_jeyLzsEeV4C0cTGEZ8WHBuvo54e6M59NPADjnKuaImLgnucBc597gJWORvycpm0ibeS9VBra04vJ5loRtZN42apf6vwF3Xc8qNcttw24CcxgDG8mlcw3nSKbnSk1gIlVjUzS9br3rcUf2c" alt="แซกโซโฟน">
+                <h3>แซกโซโฟน (Saxophone)</h3>
+                <p>แซกโซโฟนอัลโต้คุณภาพสูง เสียงนุ่มลึก</p>
+                <div class="price">฿50,000</div>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_sgotSu10YGNsJhX-Rg_Z21Op7OmP1OGPSQ&s" alt="กลองสแนร์">
+                <h3>กลองสแนร์ (Snare Drum)</h3>
+                <p>กลองสแนร์น้ำหนักเบา เสียงกระหึ่ม เหมาะกับการเดินขบวน</p>
+                <div class="price">฿52,800</div>
+            </div>
+            <div class="product">
+                <img src="https://lh3.googleusercontent.com/proxy/lOo3seSR43BP1vLZlNhhr4CDUU2BXHEVfCiHJDEbh8owusGBJ83VWSOrREME08-Kq_fFfmVwjDoSIUHP3rbpYBV3Tf0bqX6F_mLgtP2EihticnoSqGPEdxU35uQDBsU3tGGz0BALzIMn0z6IyYs" alt="ฟลูต">
+                <h3>ฟลูต (Flute)</h3>
+                <p>ฟลูตเงินแท้ เสียงใสกังวาน เหมาะสำหรับผู้เริ่มต้นและมืออาชีพ</p>
+                <div class="price">฿320,000</div>
+            </div>
+            <div class="product">
+                <img src="https://th.yamaha.com/th/files/5734CAF242A44B98865CC9AEDC449029_12073_3367x952_17285eff682565084ed12e42b30e219b.jpg" alt="ทรอมโบน">
+                <h3>ทรอมโบน (Trombone)</h3>
+                <p>ทรอมโบนทองเหลือง เสียงทรงพลังสำหรับวงโยทวาทิต</p>
+                <div class="price">฿79,000</div>
+            </div>
+            <div class="product">
+                <img src="https://drumcenternh.com/cdn/shop/products/pbdm3216a33.jpg?v=1702659774" alt="กลองใหญ่">
+                <h3>กลองใหญ่ (Bass Drum)</h3>
+                <p>กลองใหญ่เสียงแน่น เหมาะกับการเดินขบวนและโชว์</p>
+                <div class="price">฿66,500</div>
+            </div>
+            <!-- เพิ่มอีก 4 ช่องสินค้า -->
+            <div class="product">
+                <img src="https://lh3.googleusercontent.com/proxy/-O5gO5dO5MT4gvIvvNhzyr6oz2F9TqoVHqvRMl36cDRCcfu64sGrszq0IO82qKXEdYZwJ1ItCM5lxbRJJ9UYAsywLaltopn8j5Kyg2gTLXAzpMOg5JVncLvcWTgOjtqmYR6i1JiiD6E2pwEuyDq5NSwFVoQflkf2F9EjryF7VJnMZg9CKwtRLNlyjnQApBUYzSxaDrcxwIvbfuvsGf1QBjqUqY_ZTe0fNtK8ZKGxiLIuQQI77ABXtZ02uyV3Yfr2pPpAl48y1VdYHMfxlJsX8nLV9XWr9A-4YJQkVMhxBDbU27rUK32Av3xctOoSTOWg0vNiN1H2FusqszgSnuDj56XeQfMpvcKZGuapeYggHRKAu-8" alt="คลาริเน็ต">
+                <h3>คลาริเน็ต (Clarinet)</h3>
+                <p>คลาริเน็ตเสียงนุ่มลึก เหมาะสำหรับวงโยทวาทิตและวงดุริยางค์</p>
+                <div class="price">฿33,500</div>
+            </div>
+            <div class="product">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTExMWFhUXFxYXFxYYFhUYFxcYFRcaGBgYFRgYHSggHRomGxYYIjEhJSorMS4uGh8zODMtNygtLisBCgoKDg0OGhAQGi0mHyUvLS0rLS8tMC0vMS0vNy0uLS8tLS0tLS0tLS0vLS0tLy4vLS0tLS0tLS0tLS0rLS0vLf/AABEIAS0ApwMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYDBAcBAgj/xABJEAACAQMCAwUEBgUJBgcBAAABAgMABBESIQUxQQYTIlFhBzJxgRQjQlKRoWJygrHRFTNDU2OSssHCNFSTouHwCBckc4OU0iX/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAgMEAQX/xAAvEQACAQMDAgQFBAMBAAAAAAAAAQIDESEEEjEiQRNhcfBRgaGx0TKR4fFCQ2IU/9oADAMBAAIRAxEAPwDuNKUoBSlKAUpSgFKUoBSleE0B7SsZkr5MpqiWppx7nbMzUrB3h9Kd8fL8KitXTfcbWZ6ViWYHbr5H/LzrLV8ZKSujgpSlSApSlAKUpQClKUApSlAKUpQClKxu9V1Kigrs6lc9Z6xE0pXl1a0qjzwTSsKYr2mKrUQeYpivqvKltB8ugIwRtWvIzx7rl16pnxfsE8/gfkRyrapipQcoO8Qe2lykih0OVOd+W4OCCDuCCCCDuCCDvWaoS9geJjPCNR272IY+uAAGpc7CZQNjyYDS32WSUs7pJUWSNtSMMg+Y+B3B9DuK9OlVVRXINWM9KUq04KUpQClKUApSlAKUrwmuN2B8yNWKhNeV49etvl5FiR7SqF299pEVkTDEBLcY3GfBHnl3hG5brpHzxtnkPE+3/EZ8lrp1B+zH9Wo9Bp3/ABJqVLTzkrg/TeRX1mvyZ/KswbUJ5Q3mJHz+Oc1ZOEe0m/gIzMZV6rJg/g2M5+Oauenmlg7g/R9KpnY/t9Ber9xx7ynpVrivI2OFdSfIMCfwrM52dmjri0bFK8Br2pJ3InlQin6LcDpBcvvzxHctyI6BZcHPL6wDmZTU5WrxOxWaJ4myA64yNmU81ZT0ZTgg9CBU6ctkrhkhSozs7fNLADJgSqWjlAGB3sZKuVB+ySNS/osp61J16idysUpSugUpSgFKUoBWOQ1krAxrNqp7YW+J2PJ81QPav23+gwiKEj6TKDpPPuk5GQjzzsueuT0Iq8X10kUbyOdKIrOxPRVGSfwFfk/tRxt7y5kuH5yHYfdQbInyGPnk9aw6alvld8IseEaLXBYksSSSSSSSSSckknmSd80dx0rVzX2BXqkEzatYXkYJGrMx5KoJJ+Q6etT11waO2iEl0cyNslurYPIEmVhuAMjl5jc9Lp7N+HRQ8PN0cKziVmkP2UjZlx8BoLY6mub3M0t/dMw65OWziONdhqx5Aj4sfM1ljVdScorCjyy5wUYp92abXTM2F8OrYKuw36eZ/M1JwWCKQWn7thyIQZz5DMisPmor7uDFD4IvgX+2/nqb7K/oL5DJJqMk6HFaOeDmxrk6H2b7a8StCDrN7b9VLFpFUcypOWBA8ta/DnXauzPaGC+gWeBtSnYg7MjDmrjoRn5ggjINflm0vWRgQSp23HpVv7J9qns7j6UPcYqt2g5OhO0wH31Jz65OeZY5atDuuQ44P0dSscEyuoZSCrAEEbggjIIPkRWSsqyiBDWv1V86/ZuYhKBj+lg0xSEnzaN4AB/ZGp+oDtFhGtZs47u5iU+ouc22D6ap0b4qPKp+vR08rwIMUpSrzgpSlAKUpQHjVgNZpOVYa8/WvKRKJzz23cWMPDjGpw07rF+zu7/IhNP7VfnKRq7P/wCIeQ6rJemLhvmO6A/In8a4tJyq3RxtT9TshqwN68MzHkK+EXJrNWoidA4rxNhwWwtYQS9wzqVXmwSZgVx+lIy/HBqK4nZtZRrbAr30h1zsNwApKrGh9CHyfMHG2K3vZeGkuNbeJbKCaWIHkJJGCoPm7lviK1ry8WQo+SQqaMsMHYlvid2IyfKscVtm4LjLfq72NUOvL9CAkO4GK90Dnn/P/vnWwwBO1fF1CV+GedarnXF8mJVHr8/+lbUDaSMjbkR5q2zD8K1A+ms4kB6UYVjvvsb4m0liYHOXtZHgPqi+KMj00nSP1Kvorj/sXnP0y9B5SxwSj5F1zj1LV2CvNkrTfvkoasQ/bBtNlcSf1cTTfOEd6PzQVPVDdqEBs7oHkbeYH4GNql05DNbNNwyDPqlKVpIilKUApSlAfMnKsVZX5Virz9WuonE4z/4iITiyfoDcKfiwiI/wtXFHFfpf2v8AZuS9sgIV1SxSCVV6sArK6j1w2QOpUCvzU1W6Rp07fASNeOs8frWJxjcV9wkH0HM+nwrURL12Cn0WnE5FzqCWigDcnvLgLgfHasfaO4Z7g6e7BCrtGB3YyNWF23A1e9vk7jmKiexl+6TiNT4ZigZdvEY2EkQP/wAir+dW7sxad480rYL6owuRtiRigOOe2AcfokbViqtU5ub98I26aO5WuVc2M3vhiepxkVtqpZPEAQdiNv8AKuiyXEaK+seBBnZJNSk+7l15MfLG2ax29ijFW7sAMo1x4XMkT4xMmnbWjEHK9CcgHFZv/fi7ibHRjHucqurPQN8lT7rdV9DWrFCTuOmN8/hXS+Odn1EjxnJLhngIAw4UZkiIH215jzHrVW4PwUvcoq7qH1ahuuE3znqMjH5Vrp6qE4bvmZ50erBfPZLa93xKdd8rarrB5q7Slivy5fKuxCuWexGyJ+m3RJbXIkKsftC3TDMPRi4/Cup1mlmbMUuSO7Sgm0uQOZgmA+PdtipeovjX82F56pIUI81eVA//AClvwqUrbp1hlbFKUrQcFKUoBSlKA8YVhrPWIismqjezJRPgivzP7VOyr2d7IwX6iZ2kiYe6C/iaM+RDFsD7uPXH6aNRnH+Cw3cD28y6kcfNSOTKejA7g1kpVPClft3JH5BZax6K6lxT2NXyM3cvDKmfDlijkfpAggH5/wAK+uGexi5Yj6RNHGvUR5dj8NQAHx3rc9VSSvuGxvg5pw65MUkci80dX/unOPniuy8JmgEZuFKhHJdcZOQ0qkYGdtJLqR0Jb41s8Y9kNv8ARClsCJ18Su5yZCBujnkAemAMHHrnl/Cb4wO1vcowQOdS/bifkWUfhleox1ArLV2aqPS3j7GihLwpZ4O38FZFi1HmGdXJ+8HIOfjz+BFZeM8LW5SNI2MbROjqy7EoxZJEBH6OT/cqDtLoPmVCskcgw6g+Fx0Kno43G/PkcYGJTh/EIY2UmQrgMoV1bVh9JIzyJyibjPI+deBKEoTcle56FWLauiE7YzxxQwTxJ4S8iBB9i5t2YqyHmDrhZSPtA71odt7tEeRrcZnuFS1jCgZJ1tr0+R1Ppz94b71v8Z4pbW0DK7a1NxJcx61AZXkZmxEp3JBZsMcAas5qQ9nfZmWWX+UbtNDacWsB/oUP22B+2QTz33JO5AHo0op2lbCv8+HYyTm4LPJcuxvAxZWcNuMEoviI5F2JZyPQsTj0xU4K8Fe1riviYiOvPFcW6b+HvJj5eBO6Cn4mfI/U9KlqieEeOWeboWEKeqwFgxx0PetKPUKtS1ejSVokGKUpVhwUpSgFKUoBXw9fdeEVCpHdGwMVeYr6pXmyiTMZFeaayV5is8qZK58aap3bj2f29+NX83OBhZVG/oHH2l/MdDV0xSkYuLunZi5+ff8Ay54xasTbsrDzjkxn9ZJAAT+NbvD+znaCU7sIR1ZzCP8AACa7oVr0LVjnUlyo+tiaqNKyb/c5/wBkvZnDbuJ7lzc3HPW+SqnzVSTkjzbPpiugAV7XtSUW3du7K27io/j1/wBzEWDBWYhEJxgM2wZs/ZUZc+impAmqBf8AFBdX8UY3iVgo6q2/jbyIOMD03+0atvtVyUI7mXyxtVijSNc6UUKMnJIAxknqfM9a2KUr0ikUpSgFKUoBSlKAUpSgPlxXxWWvhhWerSvlHUz5ryvaVjcSR5TFe0qO0Hle0pUlEClCarfGuPZBWE7dZR+6PzP6XIdMnl2UowV5EowcnZGl217QaVNvEfEdpGHQdUHqevkNuZ2g+wUQa8B+6jnn6Y/1VEcRkAzVo9ldoT30564jU/8AM3+mo0W6k0+xqnFU6bR0GlKV6pgFKUoBSlKAUpSgFKUoBXxJIAMk4rFNcY2G5/d8a0r65WJDLKdhj8WIUKo8ySB86y1dSovbHLJKPxNrvieQwPXmfl0r6Evnt+78a0bDiGs6WjZCRqAbGSvmRzHzrFxDtJaQtoeZS/8AVpmSX5Rxgt+VZFKbd5ErEsrA8t/hX1VbbjxfdLOUjGdcvdQr8w7d4P7taV5xrbdreM56TvJsQRuAi8iQflXJV4RJKnJ8It0kqqMsQB5kgD86q/aH2g2FpkNLrkH9HH4mz69BVT4lfvIGH0tkGT/stsqPpPIGaRydgcZGOVVmLsUjn6tHxn35Xyxz10oAuSehzXVqKfcsjppslp+3E182l1MEBAZYlb6yZc76mx7nIE7DBON8Gt+74mzbadI6fDpt02rQ4Xaorllx3cYKowx9Y52aT1UYAXn4UQg7tSfVI4SNSztsqLuT/wBPU8qz1X4lSyRrpRUI3NGcPLIkMY1SSHSo/wAz5ADcnoAa7TwHha20EcK76RufvMd2b5kmoTsZ2TFqDLJhrhxgkbhF+4n+Z6/AVa69WhR2RzyYa9Xe8cClKVoKBSlKAUpSgFKUNAK0pLgtsnLq3/5/jXxJKZDge51P3vh6fvrQ49x63sow8pOWOmONRqllbokSDdjXn1tQ5vZT/csUbckmiBR5Abkn8yap/FOPRXsi29oJJu7kV3mRQYEKb6C5IDE5xhc1H8ZzIn0jjEwtrUn6uxRjmQ8wJ2TxSv8A2abD13rAO1lwyBLK2js7cDCPMoLkf2dumy/Mn1FUqKgr/X3yTinJ4yTnCOAztNcT3WiUzeEKysojjAwscfiYgYJLbDUTnpS/uLewiZhAIok0a1i05w7aWfwHUdJKE5HX8KlJaS3LaJJrq5f7veNGvzjh0oB8cVYuBez1EOpooIwVZWRU1MyOCrozk8iCQedFHxuzf0RZKGzlpE6vD7CXB+rkzggmQsd+XNs19t2XtDyjAz5E/uJxVR7Cdmoo3nsbuEOYXY28xAzNBtjlzZCwB25nA901cx2aRN4ZJIj5Bsr81bauvSv/ABSt6kPEt/kyLuuzjR+KEB9t1ICsfLSeWfjjmfSq/dXEsrfRolPfvlSvutGgUF2bONJIYKvL3iR7tXOS4li/2gB4/wCtQe76uvMfEflWp2h4UJVWWNtM0Y1QzLz89LEc1IrJKlCnO80y6NadrPJFWfYmZgA7rGgGML4mx+QH51a+EcEhthiJdz7znd2+J8vQbVH9j+0q3aFWwsyY7xf9S+nmOnwIJsdezRpU4q8TPVqTbtIUpSrykUpSgFKUoBSlKAVH3UmttC8h7x/0/wAfw86y305UAL7zbD08z8v4VC9peOw8OtXuJemyrnxSSHOFHqcEk9ACelYtTVbfhw5fJZFWV2a/a7tQliiIiGW5lOmC3X3nblk+SDqf+xTJrhrGTvJsXvGZ1yFz9Vaoegx7kYHlu/zJrVSaa1xezDvuLXwxbxEeG2jI5leaooPxOw5lzThXDmRjGpae5mbMsh96R+pJ+ygzjyxt8c7apxUY5f3/AI+5bTp73d8HxHY/W9/cSG5um21sMqmfsW8Y2A+Hrzq4cK7Iyy+OcmNT9gHMjfrN9n4D8qneznZtLca2w8xG79F/RjHQevM/lVgq+lpL9VXLOz1Fltp4Rq8P4fFCuiJAq+nX1J5k+prapStqVuDLcrfakLGY7gZ1QvrIGoho2wk2VHPCEHJ5fM1Y6qftHJNpKgOA1vdlv1RbOP8AGyH5VKdjbhpLG1dzl2giLHzbQMk/E1VBWlIk+ETBFQjQdw+n+gkOAP6uQ8gP0WPLyPxqcrBeWwkRkPJhjPUeRHqDvSvRVSNhGVmcj7UTvw7iEVyvuuwRhyBDYGT6ZABO+z55qK65Z3KyIsinKsAw+BGd/Wua+1ez77hxkYeJAQ+OhTJYD01RkVKexzjBnsVVjlk5/MkH/nVz8xWbRSajtfp+PoXVupbi+0pSt5nFKUoBSlKAV4TXtaXFH8Okc3On5fa/Lb51CpNQi5PsdSu7GG3OtjIeXJf1R/Hn865TccTj4lfy3kzf/wAzhoLL1WWVd8jo2SAQPIRj7Zq0e1fjTW1j3MOe/umFvEB73j2cj5HSD0LrVXvuHxwpbcJTBjgRbq8bo751Ro3xYFtJ+yqjyrzabtFzly/t3/CLkt0rIw2DTSyNdyoTd3eAkeSTDD/RxLnltuTtvkmuo9l+z62yZOGlYeNv9K+Sj86juxHCDg3cg8cg+rB+xGeR+LD8setW+tWno/7Jcv6Ha01+iPCFKUrWZxSlfLNjc0BTPaTNiF0HvSW08K/r3Dwwp+b5+ANWjgtt3cEUfLSij8Byqndr5O/v7e2TOpMTPy+zrCJvthg0hOdvqvMAi/VTDM5Mm/0oUpSriBSu2dl31pewDGorIUG2dRRJF+RYtn4mqb7CbjRJLCSu/eFQGVvDlCp8JO3v1be2fD3ltr7VM8QRXcNGEDFFiL4LEE4O45jaua+yErPcwSd0iyRyFNY8JKiNmOQoCk4GOWcc81gpYcn/ANF/OPI/QlKUreUClKUApSlAKjGOqY+SAD5tufy01J1FcKOpS/32ZvkTt+VYtbLpUfiyyn3ZRL5VuuO63Ydzw2HUR0EkgLaj8vwMQqL7H2rXr95IPFeSvcy+awKQI48+WkIvzrXt5j/I/FLweJr2ebSRz7uWbuAPgF1n4VffZ/w0JG74+7En6kIwcftlv7oqqMd8lHt+P5ZZF7YuXvJblXG1e0pXpGcUpSgFYLyBXQq/unnvjlv/AJVnqE7ZcQMFnPIoy4QhF5anbwqo9SSBUZ2tk6uSk9mYria7uLq27s4lZQsuoAxIXiCq6gn31mYHB2b1q+8J4qZWeOSNopUwWQkMCre68bjZkOCM7HIIIFQXsxt1S0OOjlc7nIRVAO+/mfiTUvxWVY54JcgZLRPuB4X3Un0DKB+2aqg1GNycsysTVKww3KN7rBvgQazVddMrKP7SL0RcP4gxOMoYvnLCqAfjJXPvYjbYktTj3/pcp+KBYs/nUv7duKheHpFnxXExb4xxnUD+UVb3so4cY5EUjHc2cefSS4ctIvyK/nWKPbzlf5F0e78jqlKUrcUilKUApSlAa9/Lpjdvuox/AE1o2g0wDHRNvkNqz8eP/pp//ak/wGtRL6NIQzsAundjso23yx2rzda+uPoy2C6X6nOntSOA2Ma7B3sy36rgSN+OT+NdQ4HFpgiH6IY/F/E35k1VYeHauHJAmCYhGqnIAPdIq6gfLAzmt1O1UMYWM3FoCFAObgfZAHQVzSVVlv3dk5xxbzLZWvLdopClhqIyB1PwFQbdp4wMm4th8GY86j7ri0RmV1njMmFYqFfxIucDO+M7/ga01NSkukrjTzk3W7Z2pJCzxHBKnSXfBHMEopGfTNbEPaKNlZxINKkAkxSgZPQasZPoKrXDOJiFe7t7WRYwTpUPgDJOcfVnbkAM8h6VmPEpHkLmCUkZ7vS5YqdPiABVc5APn09MVSrYwyapv4Em3bGLkGkJxnAtpgcfe8R931qs9ru0y3MaRxh8CXLa4zGdUeGQrqO4DFWz5Ka1Lziut5InilE6sBBhtLKrRE5jKtpO67j1ON8Vu9iOArdiSS4LOEYxL42JJU4kyx395cc8kdd6jvlU6V9yxQUOpmHgfaOQF47eCZ0Zg6qgQNju0BBHIbrn3hsRW7dXlzIfo8lrL9aNSRkwI57pkZmJDFQoYqOuc786tXZ60jimuoo1CqHiYADkGhQfvQ1l4igF5atgZKXCA4+8I32/4dX+CmslO/OCo8e4zdW0Aklt5u+U5RtULFsH3WZMcwcYxgk884BsXAO1EV/ZrcQHBfwFT70cnJg3w5+o3qu+1DjCkx2qH6xtTFgf5oIA5c/DCD9uqzwC7ayhv3jUFVknkAb3VzHC+Au2RmV1AHmd9qqlJU9yj3JKLlZkF27m/lDjUNqB9VBhCOYCr45PhlAoweR2rrfs9gyk9wf6aZsfqxARqV/ROkt+1XH/AGe2cvdT3zEme5YxRMRklnbMkmOo17n0iev0DwWwWCCOFRgIgUDywOVTpq9Wy4irfPv78hLpp+pvUpSthQKUpQClKUBE9qtf0Sfuxlu7bAI1AjG4K9ds7dagk7OQXcMcl3mUqpIyxCrkYJCrhQcdQP3VcXUEYPI7VVuCTKLXunbDDVET11KDq29ArH5GsGrbUoteZbBXiysX/BDqWBX7myCiWSR3wJZZAQoJYjOlY1Yj70uTuoqa4Pd2cUSp/wChJTILd9HnYnfdSenP0qiJxASFb65gklEmRBH3bNFFGdsahkAjkQNyysTkFQJNLiHQoQxANJDqxDMP5vxjVmNSUbu9LAZyW6ZNVwbi/wCi1q8S1XXFbYsJBNZIVVgo7+PTqP2j4eYGR8zWxYdorGMYW5s8k6mP0hMsxGCx29APQACq1wvihSSWQlcscaGt52TCsSrR6U8GQcYx5Z5VMDtI64PcRMvVu7njAz6tFird9sttENt8Imn7TxaC6NFIqg6ikgYDAzgnGxxj8apva3jLqFnVo1GY5hG5ZZCDqBBORjBGdue46Gp/il9b3MYRza5zlR3/AFIKbjQPvcvPB6Vx67kEVwsLsrRlQqDWzKF1NpWYbMvjdueCMjbDbRb3vm6J00kSMlx9Mn1xhgzGQkg8kTDKVzv3qhSWxz8Bxuc2fsz7Qfo8eieNS+SWKtpBPLvCACRkLnH781SY+EsijRu+A0iKRg4zgHUR90nAPLG5FTHCri7j7sJGAGchTpizkAsVGX3xg7E48qkkrpp8EpXttaLtw7txCbiWXwKrxQDxuVUFWlGzFd86gPlWxxftCsklu6zQqY3Z/eZkIZCmGYLsfFnG+fzqrcT41fRIpnYx6tQGYoXx56SurHQ9PLnUP9OeaRZbmWeXQR4FxBAAQPEyBRscn3m5eldlKSXJXGN3wTPEbSETzXTTrcOdKCFfD4R4sO7Y0oXJZmxz5A4AqvcYkabTYxNmW4ZmkcDYK7GSeYr0UkkKD0wAdt9LtDe28Nu8sanvXISHkqIDqy4CnVI4Gd28IyvM7VMdj+ByWsWp8te3W3iyzIpwcNnckZBblltC+RqieIqXfsvP8ItSy4/u/fxLn2P4UjzoqLiC0UKg83Axn1IG2fMyA10iovs9wpbaFYxz5sc5JY88nr8evPmalK26el4cLd+5mqz3SFKUq8rFKUoBSlKAVReJO1vduAupS6TBVRnZllJRwgU+9rLHcHb8avVVvtpZMY1uIxmSAlsDmYzjWB6jAb9nHWs+phuhjlZLKTtKz7lamurFbYWsd3aoEZjFqmRDH42cK6ncaTt+yK0ppoX0k31jqUHBF0oCuShVhjy7sDG2xPytVtFbX0WWRNZA8elS4xuMEjltVT4pwnuXwVQkZx4Uw4U8wCMageY5HkeleUpQXVZmqKb6b2LXadsYQoD3VizAbsLuMZ9cYrYHbK1/3mz/APtxfwqgWzxoSGgWRWI2wAyFQThc4xkHk5xy57VIxcVtoyAe4VDgAXEIGGOftMi5G2xBI8ulbIai9ufoVTo2JO+4yHlZ476wQHSADNExwBvzU9cn5+lRPFWSTxNd8OlbpvaavxYD061MjiVkR4ouHkeY0Af4Kr3E+LcPEmqIWchCtqijxLsBkuAgPiGPLlnapbksq/v5EUmzUfO2mSwHTDS2bHlnbAOkc+v/AFj249cEtHbPC7KPG8EEbIgXcguYAjHywx388VgvLeaY/UQGEZJbUiFwB5oxKx/tchjbPL7lvWjRUWUyNkAKg1R4zggsMam/UAHwqLnjp59+Raqd8vgwRaCju4kd296eeVpDkZ2RSAvmcAYxzIHKP4nx2GJS0i6x/Rw6sF3IPjmPvFARvjGeQI51pdqOJ9wdMwzKAQIc6e6Ujw6wvu9PB4T1Pmc/ZnsqXP03iHu7FISoBc/Z1Io2XliMDfyxs0tsYLfP+/Q63u6IGXsTwDJ/lG7G5OqGPHvMx8LhB64CL8D5Z7N2N4GwJuZx9Y/uL9xemPkefXJPIgLqdmOzrSstzcrgD+aiO4UHq2NiSP4DbJe84qdGnKcvEn8l8CqpNRWyPzPaUpWwzilKUApSlAKUpQCvCK9pQHN+O2knDpu/hBNuxJKgE92eZwBzXr6fDONorZ8TRZA+H2IZW2bHLOD6nccvkMXi6tlkUqwyDzH8CNwfWuUdqfZ88UhntHkiY7mSEEgn+3gXn+ugPUlRivOraWz3RNMat1Z8m/xLsrKo8BbIxpYqJBkHUvijGrGfOMfPmI5I5MeNArdVbwnONxqU8vkaiLXthxu2AJiiu4/6yPxZx6xn/RWx/wCeEqbScPwfWdl/Joap8CUuLfJk/ElEkYrJG/oYc+ZKk/i67/jW9Zdn5zGyEMQwI91lBBzjGH7vbI3GOXnVYn9usx2js41P6UzP+QRaibnt9x278MQaMH+pi0D/AIkmSPkwqa0zX6n+7OeM3wi9XnC0tIQ3EL2OOMDCjTmVsHbSpZgXxj3VJ2znrVE4t22kmc2/CIHQsCGuG8V045Eh84hX1znlutaMPZPVJqv7lpJTv3SM8szDPU7uRv0Hzro/Z7shOyaIohZQHmSFaZuYzp3APLxMWz5CrI7Y4pq7+hxpvM3ZFL7OdkIrZ1aYfSbtjqSJfEFP3jnmc/bbAzjG+M9Y7PdlGDCe7w8vNUG6R58s+82Ns9d+QOBNcD7PQWoIiXxNuzt4nc8ssx3Pl8MVKgVdChnfUd2QlVxthhHtKUrUUClKUApSlAKUpQClKUApSlAKUpQETxLs5azMXeIBzjMiFo5DjkC8ZDEehOKiJ+w6k5W7uFH3SLd1/Fotf4tVtpVcqUJcpElOS4ZSj2Db/fZV/Vit8/iyGs0fs+t9u9muZvRpiin9ZYQgPwNW+lcVCmuEddST7kdwngdtbDTBBHGP0VAJ+J5mpHFKVYklwQFKUroFKUoBSlKAUpSgFKUoBSlKA//Z" alt="ซูซาโฟน">
+                <h3>ซูซาโฟน (Sousaphone)</h3>
+                <p>ซูซาโฟนทองเหลืองขนาดใหญ่ เสียงทรงพลังสำหรับวงโยทวาทิต</p>
+                <div class="price">฿340,000</div>
+            </div>
+            <div class="product">
+                <img src="https://www.musicarms.net/wp-content/uploads/2018/11/Zildjian-ZBT-16-%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-768x768.png" alt="ฉาบ">
+                <h3>ฉาบ (Cymbals)</h3>
+                <p>ฉาบทองเหลืองคุณภาพสูง ให้เสียงกังวานสดใส</p>
+                <div class="price">฿ 6,200</div>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRO15IY4m3rbzHHLFCdoNZnXvaN6sVaKh7PA&s" alt="กลองทอม">
+                <h3>กลองทอม (Tenor Drum)</h3>
+                <p>กลองทอมชุด 4 ใบ น้ำหนักเบา เหมาะกับการแสดงโชว์</p>
+                <div class="price">฿19,000</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 ร้านขายอุปกรณ์วงโยทวาทิต
+    </footer>
+</body>
+</html>
